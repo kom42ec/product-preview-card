@@ -104,3 +104,15 @@ img {
 .price-box {
   margin: 3rem 0;
 }
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1.6rem;
+  background-color: var(--dark-cyan);
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 1.6rem;
+}
