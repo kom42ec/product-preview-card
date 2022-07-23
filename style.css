@@ -108,13 +108,17 @@ img {
   display: block;
   width: 100%;
   text-align: center;
-  padding: 1.4rem;
+  padding: 1.5rem;
   background-color: var(--dark-cyan);
   text-decoration: none;
   font-family: "Montserrat";
   color: #fff;
   font-size: 1.6rem;
   border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: hsl(158, 36%, 20%);
 }
 .cart {
   width: 2rem;
