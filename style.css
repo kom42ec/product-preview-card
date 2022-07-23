@@ -59,6 +59,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 15px;
 }
 
 .card {
@@ -71,10 +72,17 @@ main {
 
 img {
   width: 100%;
+}
+
+.desktop-image {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
+.mobile-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 .card-content {
   padding: 35px;
 }
@@ -142,4 +150,18 @@ img {
   color: var(--grayish-blue);
   font-size: 1.4rem;
   text-decoration: line-through;
+}
+
+@media screen and (min-width: 451px) {
+  .mobile-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+  .desktop-image {
+    display: none;
+  }
 }
