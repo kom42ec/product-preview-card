@@ -116,12 +116,13 @@ img {
   display: block;
   width: 100%;
   text-align: center;
-  padding: 1.5rem;
+  padding: 1.9rem;
   background-color: var(--dark-cyan);
   text-decoration: none;
   font-family: "Montserrat";
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  font-weight: 700;
   border-radius: 10px;
   line-height: 1;
 }
@@ -152,7 +153,9 @@ img {
   font-size: 1.4rem;
   text-decoration: line-through;
 }
-
+.fa-cart-shopping {
+  margin-right: 0.7rem;
+}
 @media screen and (min-width: 651px) {
   .mobile-image {
     display: none;
@@ -169,7 +172,7 @@ img {
     font-size: 55%;
   }
   .primary-heading {
-    margin: 2rem 0;
+    margin: 1.8rem 0 2rem 0;
   }
   .price-box {
     margin: 2.4rem 0 2rem 0;
