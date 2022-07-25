@@ -66,7 +66,7 @@ main {
   background-color: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 650px;
+  width: 65rem;
   border-radius: 10px;
 }
 
@@ -84,7 +84,7 @@ img {
   border-top-right-radius: 10px;
 }
 .card-content {
-  padding: 35px;
+  padding: 3.5rem;
 }
 
 .perfume {
@@ -131,7 +131,7 @@ img {
   gap: 1rem;
 }
 .cart-icon {
-  width: 1.7rem;
+  width: 1.6rem;
   height: 1.7rem;
 }
 .btn:hover {
@@ -156,12 +156,12 @@ img {
   text-decoration: line-through;
 }
 
-@media screen and (min-width: 651px) {
+@media screen and (min-width: 701px) {
   .mobile-image {
     display: none;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .card {
     grid-template-columns: 1fr;
   }
