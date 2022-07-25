@@ -152,16 +152,31 @@ img {
   text-decoration: line-through;
 }
 
-@media screen and (min-width: 451px) {
+@media screen and (min-width: 651px) {
   .mobile-image {
     display: none;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
   .card {
     grid-template-columns: 1fr;
   }
   .desktop-image {
     display: none;
+  }
+  html {
+    font-size: 55%;
+  }
+  .primary-heading {
+    margin: 2rem 0;
+  }
+  .price-box {
+    margin: 2.4rem 0 2rem 0;
+  }
+  .card-content {
+    padding: 25px;
+  }
+  .subtitle {
+    font-size: 1.6rem;
   }
 }
