@@ -18,11 +18,11 @@ Users should be able to:
 
 ### Desktop 1440px
 
-![](./screenshots/product-desktop.png.png)
+![](./screenshots/product-desktop.png)
 
 ### Mobile 375px
 
-![](./screenshots/product-mobile.png.png)
+![](./screenshots/product-mobile.png)
 
 ## Build with:
 
