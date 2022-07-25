@@ -125,15 +125,17 @@ img {
   font-weight: 700;
   border-radius: 10px;
   line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
-
+.cart-icon {
+  width: 1.7rem;
+  height: 1.7rem;
+}
 .btn:hover {
   background-color: hsl(158, 36%, 20%);
-}
-.cart {
-  width: 2rem;
-  height: 2rem;
-  color: #fff;
 }
 
 .price-box {
@@ -153,9 +155,7 @@ img {
   font-size: 1.4rem;
   text-decoration: line-through;
 }
-.fa-cart-shopping {
-  margin-right: 0.7rem;
-}
+
 @media screen and (min-width: 651px) {
   .mobile-image {
     display: none;
